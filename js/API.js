@@ -37,3 +37,18 @@ export const eliminarCliente = async id => {
         console.log(error);
     }
 }
+
+//Seccion Para editar 
+
+export const obtenerCliente = async id => {
+
+    try {
+        const resultado = await fetch(`${url}/${id}`);
+        const cliente = await resultado.json();
+        return cliente
+        
+    } catch (error) {
+        console.log(error);
+    }
+    
+}
