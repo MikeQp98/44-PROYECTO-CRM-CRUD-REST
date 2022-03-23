@@ -22,9 +22,18 @@ export const obtenerClientes = async () => {
         const resultado = await fetch(url);
         const clientes = await resultado.json()
         return clientes;
-        
+
     } catch (error) {
         console.log(error);
     }
+}
 
+export const eliminarCliente = async id => {
+    try {
+        await fetch(`${url}/${id}`, {
+            method: `DELETE`
+        });
+    } catch (error) {
+        console.log(error);
+    }
 }
