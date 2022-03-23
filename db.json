@@ -1,0 +1,25 @@
+{
+  "clientes": [
+    {
+      "nombre": "Juan NUEVO!",
+      "email": "correo2@correo.com",
+      "telefono": "12",
+      "empresa": "12212",
+      "id": 26
+    },
+    {
+      "nombre": "Michael Peters",
+      "email": "michael_pq@live.com.mx",
+      "telefono": "+584129476627",
+      "empresa": "Samsung",
+      "id": 27
+    },
+    {
+      "nombre": "Lisagnis Gil",
+      "email": "emmad8724@gmail.com",
+      "telefono": "+584129476627",
+      "empresa": "Dulcitos M&L",
+      "id": 28
+    }
+  ]
+}
