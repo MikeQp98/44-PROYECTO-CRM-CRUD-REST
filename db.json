@@ -1,18 +1,11 @@
 {
   "clientes": [
     {
-      "nombre": "Michael Peters",
-      "email": "michael_pq@live.com.mx",
-      "telefono": "+584129476627",
-      "empresa": "Samsung",
-      "id": 27
-    },
-    {
-      "nombre": "Michael Alfredo",
-      "email": "michael_pq@live.com.mx",
+      "nombre": "Michael Carlangoas",
+      "email": "emmad8724@gmail.com",
       "telefono": "+584129476627",
       "empresa": "Peters Inc",
-      "id": 28
+      "id": 27
     }
   ]
 }
